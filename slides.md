@@ -76,8 +76,8 @@ layout: center
   
   <div v-click class="bg-code-background p-6 rounded-lg border-2 border-accent-yellow mt-4 text-center">
     <div class="text-2xl font-bold text-accent-yellow">
-      When opportunity expands,<br/>
-      <span class="text-2xl">product thinking differentiates</span>
+      At SpecStory, we ship micro-SaaS<br/>
+      <span class="text-2xl">using 100% Agentic Development</span>
     </div>
   </div>
 </div>
@@ -120,238 +120,114 @@ layout: default
 layout: default
 ---
 
-# Part 1: Eternal Truths of Product Thinking
+# What We've Built at SpecStory
+
+<div class="grid grid-cols-2 gap-4 mt-6">
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-lg font-bold text-accent-blue mb-2">tny.dev (External)</h3>
+    <p class="text-sm mb-2">An API-first link shortener for Cursor, Claude users </p>
+    <p class="text-xs text-gray-400">Time from MVP to Prod: 3 weeks</p>
+    <p class="text-xs text-accent-teal">Canceled Bitly. Paying Users. 12K links shortened</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-lg font-bold text-accent-yellow mb-2">tnyform.dev (Internal)</h3>
+    <p class="text-sm mb-2">A natural language TypeForm replacement</p>
+    <p class="text-xs text-gray-400">Time from MVP to Prod: 1 week</p>
+    <p class="text-xs text-accent-teal">Canceled TypeForm. Collects responses from specstory.com/teams</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-lg font-bold text-accent-red mb-2">tnyATS (Internal)</h3>
+    <p class="text-sm mb-2">A fully functional ATS that powers specstory.com/careers</p>
+    <p class="text-xs text-gray-400">Time from MVP to Prod: 3 days</p>
+    <p class="text-xs text-accent-teal">Avoided buying AshbyHQ, Greenhouse, Lever, etc</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-lg font-bold text-accent-teal mb-2">tnydocs (In flight)</h3>
+    <p class="text-sm mb-2">A collaborative markdown editor with CRDT</p>
+    <p class="text-xs text-gray-400">Time to MVP: 1 day</p>
+    <p class="text-xs text-accent-teal">We're going to build it today together!</p>
+  </div>
+</div>
+
+<div v-click class="text-center mt-6 text-xl text-accent-yellow">
+  Each solving ONE job exceptionally well
+</div>
+
+---
+layout: default
+---
+
+# Product Thinking Essentials
 
 <div class="grid grid-cols-2 gap-6 mt-6">
   <div v-click class="flex flex-col">
-    <h2 class="text-accent-yellow mb-3 text-base font-bold">On Taste</h2>
-    <blockquote class="text-sm italic mb-3 pl-4 border-l-2 border-accent-yellow min-h-[4rem]">
-      "Ultimately, it comes down to taste. It comes down to trying to expose yourself to the best things that humans have done and then try to bring those things into what you're doing." Steve Jobs
-    </blockquote>
+    <h2 class="text-accent-yellow mb-3 text-lg font-bold">Taste = Calibrated Judgment</h2>
     <div class="bg-code-background p-4 rounded-lg border border-code-border flex-1">
       <ul class="text-sm space-y-2">
-        <li>Not subjective preference</li>
-        <li>Calibrated judgment</li>
-        <li>Cross-disciplinary pattern recognition</li>
-        <li>Stubborn standards</li>
+        <li>✓ Would YOU use this?</li>
+        <li>✓ Is it 10x better at the job?</li>
+        <li>✓ Does it have an opinion?</li>
+        <li>✓ Can you explain it in one sentence?</li>
       </ul>
     </div>
   </div>
   
   <div v-click class="flex flex-col">
-    <h2 class="text-accent-teal mb-3 text-base font-bold">On Jobs-to-be-Done</h2>
-    <blockquote class="text-sm italic mb-3 pl-4 border-l-2 border-accent-teal min-h-[4rem]">
-      "People don't simply buy products; they pull them into their lives to make progress" Clayton Christensen
-    </blockquote>
-    <div class="mb-10"></div>
+    <h2 class="text-accent-teal mb-3 text-lg font-bold">Jobs-to-be-Done</h2>
     <div class="bg-code-background p-4 rounded-lg border border-code-border flex-1">
       <ul class="text-sm space-y-2">
-        Three Vectors
-        <li><strong>Functional:</strong> The practical task</li>
-        <li><strong>Emotional:</strong> How they want to feel</li>
-        <li><strong>Social:</strong> How they want to be perceived</li>
+        <li>• What job are they hiring this for?</li>
+        <li>• What are they firing?</li>
+        <li>• When does this job arise?</li>
+        <li>• How do we know it's done well?</li>
       </ul>
     </div>
   </div>
 </div>
 
----
-layout: default
----
-
-# What Taste Really Means
-
-<div class="grid grid-cols-2 gap-6 mt-8">
-  <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-yellow mb-3">Not Subjective Preference</h3>
-    <p class="text-sm leading-relaxed">Different fields' ideas of beauty have surprising commonalities when you examine them closely</p>
-  </div>
-  
-  <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-teal mb-3">Calibrated Judgment</h3>
-    <p class="text-sm leading-relaxed">The ability to recognize quality and make thousands of micro-decisions that compound into excellence</p>
-  </div>
-  
-  <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-blue mb-3">Cross-Disciplinary Pattern Recognition</h3>
-    <p class="text-sm leading-relaxed">Drawing from art, science, humanities to inform product decisions</p>
-  </div>
-  
-  <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-red mb-3">Stubborn Standards</h3>
-    <p class="text-sm leading-relaxed">Being relentlessly stubborn about making things as good as we all know they can be</p>
-  </div>
+<div v-click class="bg-code-background p-4 rounded-lg border-2 border-accent-yellow mt-6 text-center">
+  <p class="text-lg">
+    <span class="font-bold text-accent-yellow">Key insight:</span> With infinite building capacity,<br/>
+    these questions become your ONLY differentiator
+  </p>
 </div>
 
 ---
 layout: default
 ---
 
-# Part 2: The Craft of Opportunity Assessment
-
-<div class="text-center text-lg text-gray-400 mb-8">The Jobs-to-be-Done Assessment</div>
-
-<div class="text-2xl space-y-4">
-  <div v-click="1">
-    <p class="font-bold text-accent-blue">• What job are people hiring this for? <span v-click="5" class="text-lg font-normal text-gray-300">Functional progress they're trying to make</span></p>
-  </div>
-  
-  <div v-click="2">
-    <p class="font-bold text-accent-teal">• What are they firing to hire this? <span v-click="6" class="text-lg font-normal text-gray-300">Current solutions (including "do nothing")</span></p>
-  </div>
-  
-  <div v-click="3">
-    <p class="font-bold text-accent-yellow">• When does this job arise? <span v-click="7" class="text-lg font-normal text-gray-300">Triggering circumstances</span></p>
-  </div>
-  
-  <div v-click="4">
-    <p class="font-bold text-accent-red">• How will we know we've done the job well? <span v-click="8" class="text-lg font-normal text-gray-300">Customer-defined success metrics</span></p>
-  </div>
-</div>
-
----
-layout: default
----
-
-# The Taste Assessment
-
-<div class="text-center text-lg text-gray-400 mb-6">Ask yourself honestly:</div>
-
-<div class="grid grid-cols-2 gap-6">
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-yellow mb-2">Is this something you would use?</h3>
-    <ul class="text-sm space-y-1">
-      <li>Not "would you build it" but "would you hire it"</li>
-      <li>Does it meet your own quality bar?</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-teal mb-2">Is it 10x better at the job?</h3>
-    <ul class="text-sm space-y-1">
-      <li>Not marginally better - dramatically better</li>
-      <li>Worth the switching cost</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-blue mb-2">Does it have an opinion?</h3>
-    <ul class="text-sm space-y-1">
-      <li>Strong point of view about how the job should be done</li>
-      <li>Willing to say "no" to preserve quality</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-red mb-2">Is it simple at its core?</h3>
-    <ul class="text-sm space-y-1">
-      <li>Can you explain it in one sentence?</li>
-      <li>Does it do one job exceptionally well?</li>
-    </ul>
-  </div>
-</div>
-
----
-layout: center
----
-
-# Part 3: Agentic Development
-
-<div class="text-xl text-gray-400 mt-4">The New Reality of Infinite Building Capacity</div>
-
-
----
-layout: default
----
-
-# Managing People → Orchestrating Agents
+# What Changes with AI Agents
 
 <div class="grid grid-cols-2 gap-6 mt-6">
   <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-blue mb-4">What's the Same</h3>
-    <ul class="text-base space-y-2">
-      <li>Still need clear problem definition</li>
-      <li>Still accountable for outcomes</li>
-      <li>Still need to validate with users</li>
+    <h3 class="text-lg font-bold text-accent-blue mb-4">From Managing People</h3>
+    <ul class="text-sm space-y-2">
+      <li>Task assignment</li>
+      <li>Status meetings</li>
+      <li>Context switching</li>
+      <li>Sequential execution</li>
     </ul>
   </div>
   
   <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-yellow mb-4">What's Different</h3>
+    <h3 class="text-lg font-bold text-accent-yellow mb-4">To Orchestrating Agents</h3>
     <ul class="text-sm space-y-2">
-      <li><strong>Intent Specification > Task Assignment:</strong> Crafting precise prompts and agent instructions</li>
-      <li><strong>Continuous Availability:</strong> No working hours, meetings, or context-switching</li>
-      <li><strong>Parallel Execution:</strong> Spawn multiple agents for parallel experimentation</li>
-      <li><strong>New Skills:</strong> Pre-trained models; focus on providing context</li>
+      <li>Intent specification via prompts</li>
+      <li>Continuous availability 24/7</li>
+      <li>Parallel experimentation</li>
+      <li>Hours not weeks per iteration</li>
     </ul>
   </div>
 </div>
 
----
-layout: default
----
-
-# Sequential Discovery → Continuous Experimentation
-
-<div class="grid grid-cols-2 gap-6 mt-6">
-  <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-red mb-4">Traditional Flow</h3>
-    <p class="text-base mb-3">Discovery → Prototype → Build → Test → Ship</p>
-    <ul class="text-sm space-y-2">
-      <li><strong>Speed:</strong> Weeks/months per iteration</li>
-      <li><strong>Cost:</strong> High cost per experiment</li>
-      <li><strong>Scale:</strong> One path at a time</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-5 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-teal mb-4">Agentic Flow</h3>
-    <p class="text-base mb-3">Ideate → Specify → Develop → Measure → Iterate</p>
-    <ul class="text-sm space-y-2">
-      <li><strong>Speed:</strong> Hours/days per iteration</li>
-      <li><strong>Cost:</strong> Near-zero marginal cost</li>
-      <li><strong>Scale:</strong> Multiple variations simultaneously</li>
-    </ul>
-  </div>
-</div>
-
----
-layout: default
----
-
-# New Competencies for Agentic Development
-
-<div class="grid grid-cols-2 gap-4 mt-4">
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-blue mb-2">Prompt Engineering & Intent</h3>
-    <ul class="text-xs space-y-1">
-      <li><strong>Skill:</strong> Translate needs to agent instructions</li>
-      <li><strong>Practice:</strong> Build prompt libraries and templates</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-teal mb-2">Agent Orchestration & Workflow</h3>
-    <ul class="text-xs space-y-1">
-      <li><strong>Skill:</strong> Identify which agents are best at ideation, coding, etc</li>
-      <li><strong>Practice:</strong> Map agent capabilities to best suited tasks</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-yellow mb-2">Evaluation & Guardrails</h3>
-    <ul class="text-xs space-y-1">
-      <li><strong>Skill:</strong> Create evaluation frameworks for outputs</li>
-      <li><strong>Practice:</strong>Test verifiable abstractions</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-base font-bold text-accent-red mb-2">Rapid Iteration Management</h3>
-    <ul class="text-xs space-y-1">
-      <li><strong>Skill:</strong> Manage extremely fast dev cycles</li>
-      <li><strong>Practice:</strong>Ideate → Learn → Adjust in hours not weeks </li>
-    </ul>
+<div v-click class="mt-8 text-center">
+  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-teal inline-block">
+    <p class="text-xl font-bold text-accent-teal">Real Example from Yesterday:</p>
+    <p class="text-base mt-2">Built 3 different versions of a PDF editor simultaneously</p>
+    <p class="text-base">Total time: 2 hours | Winner: Version with drag-and-drop</p>
   </div>
 </div>
 
@@ -406,50 +282,42 @@ layout: default
 </div>
 
 ---
-layout: center
----
-
-# Part 4: Hands-On with Micro-SaaS
-
-<div class="text-xl text-gray-400 mt-4">Our Perfect Agentic Development Target</div>
-
----
 layout: default
 ---
 
-# Micro-SaaS: Our Perfect Agentic Dev Target
+# Let's Build Something Together
 
-<div class="text-center text-lg text-gray-400 mb-6">Why Micro-SaaS Works</div>
+<div class="text-center text-xl text-accent-yellow mb-6">
+  Live Demo: Building a Micro-SaaS in 10 Minutes
+</div>
 
-<div class="grid grid-cols-3 gap-3">
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-blue mb-1">1. Single Job Focus</h3>
-    <p class="text-xs">One job done exceptionally well</p>
+<div class="grid grid-cols-2 gap-6">
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-lg font-bold text-accent-blue mb-3">The Job We'll Solve</h3>
+    <p class="text-sm mb-2">
+      "I need to quickly extract and format data from screenshots"
+    </p>
+    <ul class="text-xs space-y-1 text-gray-400">
+      <li>• Current solution: Manual retyping</li>
+      <li>• When it arises: Daily for researchers</li>
+      <li>• Success metric: < 10 seconds per extraction</li>
+    </ul>
   </div>
   
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-teal mb-1">2. Rapid Experimentation</h3>
-    <p class="text-xs">Can rebuild entirely in hours</p>
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-lg font-bold text-accent-teal mb-3">Our Approach</h3>
+    <ol class="text-sm space-y-2">
+      <li>1. Scope: Screenshot → Structured data</li>
+      <li>2. Prototype: OCR + LLM parsing</li>
+      <li>3. Evaluate: Test with real screenshots</li>
+      <li>4. Compose: Add format options</li>
+    </ol>
   </div>
-  
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-yellow mb-1">3. Clear Success Metrics</h3>
-    <p class="text-xs">Easy to measure job success</p>
-  </div>
-  
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-red mb-1">4. Taste Differentiation</h3>
-    <p class="text-xs">Quality becomes the moat</p>
-  </div>
-  
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-blue mb-1">5. Low Risk</h3>
-    <p class="text-xs">Small investment, quick validation</p>
-  </div>
-  
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-teal mb-1">6. High Volume</h3>
-    <p class="text-xs">Launch many experiments in parallel</p>
+</div>
+
+<div v-click class="mt-6 text-center">
+  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-yellow">
+    <p class="text-lg font-bold">Watch as we go from idea → working product</p>
   </div>
 </div>
 
@@ -457,8 +325,208 @@ layout: default
 layout: default
 ---
 
-# Two Approaches to Building with AI
+# Real Prompts We Use at SpecStory
+
+<div class="bg-code-background p-4 rounded-lg border border-code-border mb-4">
+  <h3 class="text-sm font-bold text-accent-yellow mb-2">Initial Scoping Prompt</h3>
+  <pre class="text-xs">
+Build a web app that extracts structured data from screenshots.
+Requirements:
+- Drag and drop interface for images
+- Auto-detect tables, lists, and key-value pairs
+- Export to JSON, CSV, or Markdown
+- Show confidence scores for extractions
+- One-click copy to clipboard
+Tech: Next.js, Vercel AI SDK, Tesseract.js
+  </pre>
+</div>
+
+<div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+  <h3 class="text-sm font-bold text-accent-teal mb-2">Iteration Prompt</h3>
+  <pre class="text-xs">
+The extraction works but users want to see a preview.
+Add a side-by-side view:
+- Left: Original image with bounding boxes
+- Right: Extracted data with edit capability
+- Sync highlighting between panels
+Keep it simple - this is the core differentiator.
+  </pre>
+</div>
+
+<div v-click class="text-center mt-4 text-accent-yellow">
+  Notice: Clear intent, specific constraints, focused on the job
+</div>
+
+---
+layout: default
+---
+
+# Agent Orchestration in Action
+
+<div class="text-center text-lg text-gray-400 mb-4">How we build with multiple agents</div>
+
+<div class="grid grid-cols-3 gap-3">
+  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
+    <h3 class="text-sm font-bold text-accent-blue mb-2">Claude (Architect)</h3>
+    <ul class="text-xs space-y-1">
+      <li>• System design</li>
+      <li>• Complex logic</li>
+      <li>• Code review</li>
+    </ul>
+  </div>
+  
+  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
+    <h3 class="text-sm font-bold text-accent-yellow mb-2">Cursor (Builder)</h3>
+    <ul class="text-xs space-y-1">
+      <li>• Rapid prototyping</li>
+      <li>• UI components</li>
+      <li>• Refactoring</li>
+    </ul>
+  </div>
+  
+  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
+    <h3 class="text-sm font-bold text-accent-teal mb-2">v0 (Designer)</h3>
+    <ul class="text-xs space-y-1">
+      <li>• UI/UX patterns</li>
+      <li>• Component library</li>
+      <li>• Responsive design</li>
+    </ul>
+  </div>
+</div>
+
+<div v-click class="mt-6">
+  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-red">
+    <h3 class="text-base font-bold text-accent-red mb-2">Real Workflow Example</h3>
+    <div class="text-sm space-y-1">
+      <p>1. Claude: "Design a system for real-time CSV transformations"</p>
+      <p>2. v0: "Create the upload and preview interface"</p>
+      <p>3. Cursor: "Implement the transformation engine"</p>
+      <p>4. Claude: "Review and optimize the pipeline"</p>
+      <p class="text-xs text-gray-400 mt-2">Total time: 90 minutes → Shipped to 500 users</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Common Pitfalls & How to Avoid Them
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+  <div v-click class="bg-code-background p-4 rounded-lg border border-accent-red">
+    <h3 class="text-base font-bold text-accent-red mb-2">❌ Building Everything</h3>
+    <p class="text-sm">Just because you can doesn't mean you should</p>
+    <p class="text-xs text-accent-yellow mt-2">✓ Fix: Validate the job first</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-accent-red">
+    <h3 class="text-base font-bold text-accent-red mb-2">❌ Overengineering</h3>
+    <p class="text-sm">Adding features because AI makes it easy</p>
+    <p class="text-xs text-accent-yellow mt-2">✓ Fix: One job, done perfectly</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-accent-red">
+    <h3 class="text-base font-bold text-accent-red mb-2">❌ Ignoring Taste</h3>
+    <p class="text-sm">Shipping mediocre products fast</p>
+    <p class="text-xs text-accent-yellow mt-2">✓ Fix: Your standards are your moat</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-accent-red">
+    <h3 class="text-base font-bold text-accent-red mb-2">❌ Poor Prompting</h3>
+    <p class="text-sm">Vague instructions = wasted cycles</p>
+    <p class="text-xs text-accent-yellow mt-2">✓ Fix: Specific intent + constraints</p>
+  </div>
+</div>
+
+<div v-click class="mt-6 text-center">
+  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-teal">
+    <p class="text-lg font-bold text-accent-teal">Remember: Speed without taste = fast failure</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Your First Micro-SaaS This Week
+
+<div class="text-center text-xl text-accent-yellow mb-6">
+  Start with these high-success patterns
+</div>
+
+<div class="grid grid-cols-2 gap-4">
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-base font-bold text-accent-blue mb-2">Format Converters</h3>
+    <p class="text-xs">PDF→X, CSV→Y, Markdown→Z</p>
+    <p class="text-xs text-gray-400">Clear job, easy to validate</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-base font-bold text-accent-teal mb-2">Workflow Automators</h3>
+    <p class="text-xs">Zapier-like but for ONE specific workflow</p>
+    <p class="text-xs text-gray-400">Deep not wide</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-base font-bold text-accent-yellow mb-2">Data Extractors</h3>
+    <p class="text-xs">Screenshots, PDFs, websites → structured data</p>
+    <p class="text-xs text-gray-400">High daily usage potential</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-base font-bold text-accent-red mb-2">Micro Analytics</h3>
+    <p class="text-xs">One metric, beautifully visualized</p>
+    <p class="text-xs text-gray-400">Simplicity wins</p>
+  </div>
+</div>
+
+<div v-click class="mt-6">
+  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-teal text-center">
+    <p class="text-lg font-bold mb-2">This Week's Challenge:</p>
+    <p class="text-base">Pick one. Build it. Ship it. Get 10 users.</p>
+    <p class="text-sm text-gray-400 mt-2">Time budget: 8 hours max</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Two Approaches We Use at SpecStory
 
 <div class="flex justify-center mt-2 pb-20">
   <img src="/specflow.png" class="max-h-[450px]" />
+</div>
+
+---
+layout: center
+---
+
+# Ready to Build?
+
+<div class="text-center mt-8">
+  <div v-click class="text-2xl text-accent-yellow mb-6">
+    Join us for the full course
+  </div>
+  
+  <div v-click class="text-lg mb-8">
+    <p class="text-accent-teal">Product Thinking for Agentic Development</p>
+    <p class="text-sm text-gray-400 mt-2">Where we'll build 3 micro-SaaS products together</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-6 rounded-lg border-2 border-accent-yellow inline-block">
+    <p class="text-lg mb-2">What you'll leave with:</p>
+    <ul class="text-base text-left space-y-2">
+      <li>✓ Your own micro-SaaS shipped and live</li>
+      <li>✓ Prompt templates and agent workflows</li>
+      <li>✓ The SPECIFY framework mastered</li>
+      <li>✓ Direct access to our SpecStory playbook</li>
+    </ul>
+  </div>
+  
+  <div v-click class="mt-8 text-lg">
+    <p class="text-accent-blue">Questions? Let's discuss!</p>
+    <p class="text-sm text-gray-400">greg@specstory.com | jake@specstory.com</p>
+  </div>
 </div>
