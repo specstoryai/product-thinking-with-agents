@@ -145,7 +145,7 @@ layout: default
   </div>
   
   <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-teal mb-1">tnydocs (In flight)</h3>
+    <h3 class="text-sm font-bold text-accent-teal mb-1">tnyOffice (In flight)</h3>
     <p class="text-xs mb-1">Collaborative markdown editor + CRDT</p>
     <p class="text-xs text-gray-400">MVP: 1 day</p>
     <p class="text-xs text-accent-teal">Building it today together!</p>
@@ -292,7 +292,7 @@ layout: default
 # Let's Build Something Together
 
 <div class="text-center text-xl text-accent-yellow mb-6">
-  Live Demo: Updating our tnydocs Micro-SaaS in 15 Minutes
+  Live Demo: Updating our tnyOffice Micro-SaaS in 15 Minutes
 </div>
 
 <div class="grid grid-cols-2 gap-6">
