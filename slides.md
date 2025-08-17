@@ -289,88 +289,39 @@ layout: default
 layout: default
 ---
 
-# Let's Build Something Together
+# Let's Build Something Together: The Bulletizer
 
 <div class="text-center text-xl text-accent-yellow mb-6">
-  Live Demo: Updating our tnyOffice Micro-SaaS in 15 Minutes
+  Live Demo: Adding Smart Summarization to tnyOffice in 15 Minutes
 </div>
 
 <div class="grid grid-cols-2 gap-6">
   <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
     <h3 class="text-lg font-bold text-accent-blue mb-3">The Job We'll Solve</h3>
     <p class="text-sm mb-2">
-      "I need to quickly extract and format data from screenshots"
+      "I need to drop ANY content and get 3-5 clear bullets"
     </p>
     <ul class="text-xs space-y-1 text-gray-400">
-      <li>Current solution: Manual retyping</li>
-      <li>When it arises: Daily for researchers</li>
-      <li>Success metric: < 10 seconds per extraction</li>
+      <li>Current: Manual reading & summarizing</li>
+      <li>Pain: Screenshots, PDFs, walls of text</li>
+      <li>Success: Instant, accurate bullet points</li>
     </ul>
   </div>
   
   <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
-    <h3 class="text-lg font-bold text-accent-teal mb-3">Our Approach</h3>
+    <h3 class="text-lg font-bold text-accent-teal mb-3">Our Thoughtful Approach</h3>
     <ol class="text-sm space-y-2">
-      <li>Scope: Screenshot → Structured data</li>
-      <li>Prototype: OCR + LLM parsing</li>
-      <li>Evaluate: Test with real screenshots</li>
-      <li>Compose: Add format options</li>
+      <li><strong>Define Intent:</strong> What makes good bullets?</li>
+      <li><strong>Plan First:</strong> Smallest working kernel</li>
+      <li><strong>Start Simple:</strong> Text → bullets only</li>
+      <li><strong>Then Expand:</strong> Add images, PDFs, audio</li>
     </ol>
   </div>
 </div>
 
 <div v-click class="mt-6 text-center">
   <div class="bg-code-background p-4 rounded-lg border-2 border-accent-yellow">
-    <p class="text-lg font-bold">We'll collaboratively go from idea → working feature </p>
-  </div>
-</div>
-
----
-layout: default
----
-
-# Agent Orchestration in Action
-
-<div class="text-center text-lg text-gray-400 mb-4">How we build with multiple agents</div>
-
-<div class="grid grid-cols-3 gap-3">
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-blue mb-2">Claude (Architect)</h3>
-    <ul class="text-xs space-y-1">
-      <li>System design</li>
-      <li>Complex logic</li>
-      <li>Code review</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-yellow mb-2">Cursor (Builder)</h3>
-    <ul class="text-xs space-y-1">
-      <li>Rapid prototyping</li>
-      <li>UI components</li>
-      <li>Refactoring</li>
-    </ul>
-  </div>
-  
-  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
-    <h3 class="text-sm font-bold text-accent-teal mb-2">v0 (Designer)</h3>
-    <ul class="text-xs space-y-1">
-      <li>UI/UX patterns</li>
-      <li>Component library</li>
-      <li>Responsive design</li>
-    </ul>
-  </div>
-</div>
-
-<div v-click class="mt-6">
-  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-red">
-    <h3 class="text-base font-bold text-accent-red mb-2">Real Workflow Example</h3>
-    <div class="text-sm space-y-1">
-      <p>1. Claude: "Design a system for real-time CSV transformations"</p>
-      <p>2. v0: "Create the upload and preview interface"</p>
-      <p>3. Cursor: "Implement the transformation engine"</p>
-      <p>4. Claude: "Review and optimize the pipeline"</p>
-    </div>
+    <p class="text-lg font-bold">Planning before prompting = Avoiding the "Building Everything" trap</p>
   </div>
 </div>
 
@@ -409,6 +360,55 @@ layout: default
 <div v-click class="mt-3 text-center">
   <div class="bg-code-background p-2 rounded-lg border-2 border-accent-teal">
     <p class="text-sm font-bold text-accent-teal">Remember: Speed without taste = fast failure</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Intent-First Development: The Bulletizer
+
+<div class="text-center text-lg text-gray-400 mb-4">Building thoughtfully with clear intent before code</div>
+
+<div class="grid grid-cols-3 gap-3">
+  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
+    <h3 class="text-sm font-bold text-accent-blue mb-2">Step 1: Intent & Planning</h3>
+    <ul class="text-xs space-y-1">
+      <li>Define: 3-5 bullets output</li>
+      <li>Scope: Text input first</li>
+      <li>Constraints: < 2s response</li>
+    </ul>
+  </div>
+  
+  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
+    <h3 class="text-sm font-bold text-accent-yellow mb-2">Step 2: Smallest Kernel</h3>
+    <ul class="text-xs space-y-1">
+      <li>Claude: Design API contract</li>
+      <li>Cursor: Basic text → bullets</li>
+      <li>Test with real content</li>
+    </ul>
+  </div>
+  
+  <div v-click class="bg-code-background p-3 rounded-lg border border-code-border">
+    <h3 class="text-sm font-bold text-accent-teal mb-2">Step 3: Expand Carefully</h3>
+    <ul class="text-xs space-y-1">
+      <li>Add image support (OCR)</li>
+      <li>Add PDF extraction</li>
+      <li>Add audio (later)</li>
+    </ul>
+  </div>
+</div>
+
+<div v-click class="mt-6">
+  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-red">
+    <h3 class="text-base font-bold text-accent-red mb-2">Live Bulletizer Workflow</h3>
+    <div class="text-sm space-y-1">
+      <p>1. <strong>Human:</strong> "We need content → 3-5 bullets for note-taking"</p>
+      <p>2. <strong>Claude:</strong> Plans API: input types, processing pipeline, output format</p>
+      <p>3. <strong>Cursor:</strong> Implements text processor with prompt engineering</p>
+      <p>4. <strong>Test:</strong> Chemistry textbook screenshot → perfect bullets!</p>
+    </div>
   </div>
 </div>
 
