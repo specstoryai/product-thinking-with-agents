@@ -40,14 +40,14 @@ A collaborative markdown editor that demonstrates agentic development:
 
 ## 📚 Handouts & Resources
 
-1. **[Patterns of Prompting Handout](./handouts/pdfs/specstory-patterns-of-prompting-handout.pdf)** - Master the art of prompting with proven patterns
+- **[Patterns of Prompting Handout](./handouts/pdfs/specstory-patterns-of-prompting-handout.pdf)** - Master the art of prompting with proven patterns
    - Context-Intent-Constraint (CIC) formula
    - The Pivot Protocol (2-3 attempts max)
    - Quality Language that ships features
    - Progressive Disclosure techniques
    - 8 core patterns with practice scenarios
 
-2. **[25 Lessons Learned Handout](./handouts/pdfs/specstory-25-lessons-handout.pdf)** - Hard-won insights from building production micro-SaaS agentically
+- **[25 Lessons Learned Handout](./handouts/pdfs/specstory-25-lessons-handout.pdf)** - Hard-won insights from building production micro-SaaS agentically
    - Ideation & requirements gathering
    - Technology stack decisions
    - Architecture fundamentals
@@ -131,5 +131,3 @@ MIT License - Feel free to use these materials for your own learning and teachin
 ---
 
 Built with ❤️ and Claude Code by the SpecStory team
-
-*Transform how you build software with AI agents. Join us for the Maven lightning lesson and discover the patterns that ship products.*

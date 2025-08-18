@@ -120,6 +120,31 @@ layout: default
 layout: default
 ---
 
+# Get the Materials
+
+<div class="grid grid-cols-2 gap-4 max-w-2xl mx-auto mt-8">
+  <div v-click class="bg-code-background p-4 rounded border border-code-border">
+    <p class="font-bold mb-2 text-accent-yellow">GitHub Repo</p>
+    <img src="/qr-ptwa.png" class="w-32 h-32 mx-auto rounded" alt="QR Code for GitHub Repo" />
+    <a href="https://get.specstory.com/ptwa" class="text-sm mt-2 block hover:text-accent-yellow font-mono text-center">get.specstory.com/ptwa</a>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded border border-code-border">
+    <p class="font-bold mb-2 text-accent-teal">What's Included</p>
+    <ul class="text-sm space-y-1 text-left">
+      <li>📊 These slides</li>
+      <li>📝 Patterns of Prompting handout</li>
+      <li>💡 25 Lessons Learned handout</li>
+      <li>🚀 tnyOffice demo code</li>
+      <li>🎯 The Bulletizer implementation</li>
+    </ul>
+  </div>
+</div>
+
+---
+layout: default
+---
+
 # What We've Built at SpecStory
 
 <div class="grid grid-cols-2 gap-3 mt-3">
