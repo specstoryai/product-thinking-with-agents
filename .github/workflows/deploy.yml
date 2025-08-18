@@ -25,17 +25,17 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm ci
+        run: cd lightning-talk-slides && npm ci
 
       - name: Build
-        run: npm run build -- --base /product-thinking-with-agents/
+        run: cd lightning-talk-slides && npm run build -- --base /product-thinking-with-agents/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: lightning-talk-slides/dist
 
   deploy:
     environment:
