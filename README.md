@@ -3,7 +3,7 @@
 ## 🎬 **[Watch the slides live](https://specstoryai.github.io/product-thinking-for-agentic-development/)**
 
 <div align="left">
-  <img src="./public/specstoryicon.png" alt="SpecStory Logo" width="100" />
+  <img src="./lightning-talk-slides/public/specstoryicon.png" alt="SpecStory Logo" width="100" />
 </div>
 
 Master the art of building software with AI agents through real-world patterns, live coding, and proven techniques from 200+ production conversations. This Maven lightning lesson transforms how you think about and work with AI coding assistants like Claude Code, Cursor, and Copilot.
@@ -66,7 +66,7 @@ Download our comprehensive handouts distilled from 200+ real-world AI coding ses
 ```bash
 # Clone the repository
 git clone https://github.com/specstoryai/product-thinking-for-agentic-development.git
-cd product-thinking-for-agentic-development
+cd product-thinking-for-agentic-development/lightning-talk-slides
 
 # Install dependencies
 npm install
@@ -76,6 +76,9 @@ pnpm install
 
 ### Development
 ```bash
+# Navigate to slides directory
+cd lightning-talk-slides
+
 # Start the slide deck locally
 npm run dev
 # or
@@ -102,28 +105,29 @@ pnpm export
 ```
 product-thinking-for-agentic-development/
 ├── README.md                    # This file
-├── slides.md                    # Main presentation content
-├── package.json                 # Dependencies
-├── public/                      # Presentation assets
-│   ├── specstoryicon.png       # SpecStory branding
-│   ├── greg.png                # Instructor photos
-│   ├── jake.jpg
-│   └── qr-*.png                # QR codes for resources
+├── lightning-talk-slides/       # Slidev presentation source
+│   ├── slides.md               # Main presentation content
+│   ├── package.json            # Dependencies
+│   ├── public/                 # Presentation assets
+│   │   ├── specstoryicon.png  # SpecStory branding
+│   │   ├── greg.png           # Instructor photos
+│   │   ├── jake.jpg
+│   │   └── qr-*.png           # QR codes for resources
+│   ├── components/             # Vue components for slides
+│   ├── pages/                  # Additional slide pages
+│   ├── snippets/               # Code snippets
+│   └── dist/                   # Built slides (gitignored)
 ├── handouts/                    # PDF and markdown handouts
 │   ├── pdfs/
 │   │   ├── specstory-patterns-of-prompting-handout.pdf
 │   │   └── specstory-25-lessons-handout.pdf
 │   ├── specstory-patterns-of-prompting-handout.md
 │   └── specstory-25-lessons-handout.md
-├── tnyOffice/                   # Live demo application
-│   ├── apps/
-│   │   ├── api/                # TypeScript API with Automerge
-│   │   └── docs/               # Next.js collaborative editor
-│   └── README.md               # Demo app documentation
-├── components/                  # Vue components for slides
-├── pages/                       # Additional slide pages
-├── snippets/                    # Code snippets
-└── dist/                        # Built slides (gitignored)
+└── tnyOffice/                   # Live demo application
+    ├── apps/
+    │   ├── api/                # TypeScript API with Automerge
+    │   └── docs/               # Next.js collaborative editor
+    └── README.md               # Demo app documentation
 ```
 
 ## 🛠️ Tech Stack
