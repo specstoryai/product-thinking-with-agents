@@ -438,7 +438,7 @@ layout: default
 layout: default
 ---
 
-# Intent-First Development: The Bulletizer
+# Spec-First Development: The Bulletizer
 
 <div class="text-center text-lg text-gray-400 mb-4">Building thoughtfully with clear intent before code</div>
 
@@ -471,45 +471,69 @@ layout: default
   </div>
 </div>
 
-<div v-click class="mt-6">
-  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-red">
-    <h3 class="text-base font-bold text-accent-red mb-2">Live Bulletizer Workflow</h3>
-    <div class="text-sm space-y-1">
-      <p>1. <strong>Human:</strong> "We need content → 3-5 bullets for note-taking"</p>
-      <p>2. <strong>Claude:</strong> Plans API: input types, processing pipeline, output format</p>
-      <p>3. <strong>Cursor:</strong> Implements text processor with prompt engineering</p>
-      <p>4. <strong>Test:</strong> Chemistry textbook screenshot → perfect bullets!</p>
+<div v-click class="mt-4">
+  <div class="bg-code-background p-3 rounded-lg border-2 border-accent-red">
+    <h3 class="text-sm font-bold text-accent-red mb-1">Live Workflow</h3>
+    <div class="text-xs">
+      <span class="text-accent-yellow">Human:</span> "Content → bullets" → 
+      <span class="text-accent-blue">Claude:</span> Plans API → 
+      <span class="text-accent-teal">Cursor:</span> Implements → 
+      <span class="text-accent-yellow">✓</span> Perfect bullets!
     </div>
   </div>
 </div>
 
 ---
+layout: default
+---
+
+# Continue Your Journey: Elite AI-Assisted Coding
+
+<div class="flex flex-col items-center mt-4">
+  <div v-click class="mb-8">
+    <img src="/elite_ai_assisted_coding.png" class="rounded-lg border-2 border-accent-blue max-h-[250px]" />
+  </div>
+  
+  <div v-click class="bg-accent-yellow text-vulcan p-6 rounded-lg text-center">
+    <p class="text-2xl font-bold mb-2">30% OFF for this audience</p>
+    <p class="text-xl font-mono">Code: AI-CODING-PRODUCT-THINKING</p>
+  </div>
+</div>
+
+
+---
 layout: center
 ---
 
-# Want to get even more hands on?
+# Thank You! 🎉
 
-<div class="text-center mt-4">
-  <div v-click class="text-xl text-accent-yellow mb-4">
-    3-Day Intensive Maven Course • Coming Soon
-  </div>
-  
-  <div v-click class="mb-4">
-    <p class="text-2xl font-bold text-accent-teal">PMing Agents to Create Software</p>
-  </div>
-  
-  <div v-click class="bg-code-background p-4 rounded-lg border-2 border-accent-yellow inline-block">
-    <p class="text-base mb-2">What you'll leave with:</p>
-    <ul class="text-sm text-left space-y-1">
-      <li>Your own micro-SaaS shipped live</li>
-      <li>In depth agent first workflows</li>
-      <li>The SPECIFY framework mastered</li>
-      <li>Direct access to the SpecStory book on Agentic Development</li>
-    </ul>
-  </div>
-  
-  <div v-click class="mt-4 text-base">
-    <p class="text-accent-blue">Questions? Hit us up!</p>
-    <p class="text-xs text-gray-400">greg@specstory.com | jake@specstory.com</p>
-  </div>
+<div class="bg-code-background p-8 rounded-lg border border-code-border max-w-2xl mx-auto">
+<h2 class="text-3xl mb-8 text-accent-yellow font-bold text-center">Follow Us & Stay Connected!</h2>
+
+<div class="grid grid-cols-2 gap-8 mb-8">
+<div class="bg-vulcan p-6 rounded-lg text-center">
+<div class="text-4xl mb-3">💼</div>
+<p class="font-bold text-accent-blue text-xl mb-2">LinkedIn</p>
+<a href="https://linkedin.com/company/specstory" class="text-lg hover:text-accent-blue hover:underline transition-all">@specstory</a>
 </div>
+
+<div class="bg-vulcan p-6 rounded-lg text-center">
+<div class="text-4xl mb-3">🐦</div>
+<p class="font-bold text-accent-teal text-xl mb-2">Twitter</p>
+<a href="https://twitter.com/specstoryai" class="text-lg hover:text-accent-teal hover:underline transition-all">@specstoryai</a>
+</div>
+</div>
+
+<div class="border-t border-gray-700 pt-6 text-center">
+<p class="text-xl text-accent-yellow font-semibold mb-3">
+📧 Reach out with any questions!
+</p>
+<a href="https://join.slack.com/t/specstory/shared_invite/zt-2vq0274ck-MYS39rgOpDSmgfE1IeK9gg" class="text-lg text-accent-teal hover:text-accent-blue hover:underline transition-all">
+💬 Join our Slack community
+</a>
+</div>
+</div>
+
+<p class="text-lg text-gray-400 mt-8 text-center">
+Build something amazing this week 🚀
+</p>

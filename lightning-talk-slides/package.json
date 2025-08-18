@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build:gh-pages": "slidev build --base /product-thinking-for-agentic-development/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
