@@ -56,7 +56,7 @@ A collaborative markdown editor that demonstrates agentic development:
 
 - 🖼️ **[Markdown versions](./handouts/)** for easy reference while prompting
 
-- 💾 **[SpecStory Extension](https://docs.specstory.com)** to save your conversation history
+- 💾 **[SpecStory Extension](https://get.specstory.com/extension)** to save your conversation history
 
 
 ## 📁 Project Structure
@@ -121,7 +121,7 @@ Greg Ceccarelli turns intent into software. He co-founded SpecStory on the premi
 
 - 🌐 **Website**: [specstory.com](https://specstory.com)
 - 📧 **Contact**: greg@specstory.com | jake@specstory.com
-- 🛠️ **SpecStory Extension**: [docs.specstory.com](https://docs.specstory.com)
+- 🛠️ **SpecStory Extension**: [https://get.specstory.com/extension](https://get.specstory.com/extension)
 - 💼 **LinkedIn**: [Greg](https://www.linkedin.com/in/gregceccarelli/) | [Jake](https://www.linkedin.com/in/jakelevirne/)
 
 ## 📜 License
