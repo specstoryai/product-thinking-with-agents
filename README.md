@@ -12,7 +12,7 @@ The fundamental shift is here: **"We can build anything - but should we?"** Lear
 - **Live Coding Demo**: Watch us add "The Bulletizer" feature to tnyOffice in real-time
 
 ### Lesson Details
-- **📊 [View the Lightning Lesson Slides](https://specstoryai.github.io/product-thinking-for-agentic-development/)** - Interactive Slidev presentation
+- **📊 [View the Lightning Lesson Slides](https://specstoryai.github.io/product-thinking-with-agents/)** - Interactive Slidev presentation
 - **🎥 Lightning Lesson Recording** - *August 19, 2025 at 2 PM EDT*
 - **👥 Instructors**: [Greg Ceccarelli](https://www.linkedin.com/in/gregceccarelli/) & [Jake Levirne](https://www.linkedin.com/in/jakelevirne/)
 

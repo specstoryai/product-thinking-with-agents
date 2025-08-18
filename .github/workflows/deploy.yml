@@ -26,18 +26,16 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: ./lightning-talk-slides
 
       - name: Build
-        run: npm run build -- --base /product-thinking-for-agentic-development/
-        working-directory: ./lightning-talk-slides
+        run: npm run build -- --base /product-thinking-with-agents/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./lightning-talk-slides/dist
+          path: dist
 
   deploy:
     environment:
