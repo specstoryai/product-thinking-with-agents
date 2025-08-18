@@ -289,6 +289,71 @@ layout: default
 layout: default
 ---
 
+# Brainstorming: Where Every Product Starts
+
+<div class="flex gap-4 mt-2">
+<div class="w-5/12">
+<div class="bg-code-background p-4 rounded-lg border border-accent-yellow">
+<h3 class="text-base font-bold text-accent-yellow mb-3">Prompts to Get You Thinking</h3>
+<ul class="text-sm space-y-2">
+<li v-click>What am I trying to build?</li>
+<li v-click>Why does this matter?</li>
+<li v-click>Random ideas & inspiration</li>
+<li v-click>Things I've seen that are cool</li>
+<li v-click>Problems this could solve</li>
+</ul>
+</div>
+<div v-click class="bg-code-background p-3 rounded-lg border border-accent-teal mt-3">
+<p class="text-xs"><strong>Pro tip:</strong> Use ChatGPT/Claude as your brainstorming partner. Dump everything - no structure needed. The goal is to explore the problem space before jumping to solutions.</p>
+</div>
+</div>
+<div class="w-7/12 flex items-center justify-center">
+<img src="/brainstorm.png" class="max-h-[380px] rounded-lg border border-code-border" />
+</div>
+</div>
+
+---
+layout: default
+---
+
+# Our Spec Template: From Ideas to Implementation
+
+<div class="bg-code-background p-2 rounded border border-code-border mb-3" style="font-size: 0.6rem; line-height: 1.3;">
+<pre style="margin: 0; white-space: pre-wrap;">Create or update the # Current Spec section based on @BRAINSTORM.md:
+• My app is for [user description] to let them [solve problem x, have fun playing y]
+• The fidelity of my application: [prototype, alpha, beta, production]
+• The form factor: [web app, mobile app, desktop app, CLI tool, API, browser extension]
+• Key features: [shared calendar, todo list, welcome message]
+• Technology choices: [language, framework, packages, cloud services]
+→ Create spec ready for AI coding agent to break down into phased task list</pre>
+</div>
+
+<div class="grid grid-cols-2 gap-2">
+  <div v-click class="bg-code-background p-2 rounded border border-accent-yellow">
+    <h3 class="text-xs font-bold text-accent-yellow">🎯 User Description</h3>
+    <p style="font-size: 0.65rem; line-height: 1.2;">Be specific! "Researchers who read 50+ papers/week" beats "people who read stuff"</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-2 rounded border border-accent-teal">
+    <h3 class="text-xs font-bold text-accent-teal">📊 Fidelity Levels</h3>
+    <p style="font-size: 0.65rem; line-height: 1.2;"><strong>Prototype:</strong> Prove it works • <strong>Beta:</strong> Friends • <strong>Prod:</strong> Paying users</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-2 rounded border border-accent-blue">
+    <h3 class="text-xs font-bold text-accent-blue">📱 Form Factor</h3>
+    <p style="font-size: 0.65rem; line-height: 1.2;">Choose ONE primary. This drives all technical decisions downstream.</p>
+  </div>
+  
+  <div v-click class="bg-code-background p-2 rounded border border-accent-red">
+    <h3 class="text-xs font-bold text-accent-red">✅ Why This Works</h3>
+    <p style="font-size: 0.65rem; line-height: 1.2;">Forces clarity on WHO, WHAT, and HOW before any code is written</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
 # Let's Build Something Together: The Bulletizer
 
 <div class="text-center text-xl text-accent-yellow mb-6">
@@ -324,6 +389,42 @@ layout: default
     <p class="text-lg font-bold">Planning before prompting = Avoiding the "Building Everything" trap</p>
   </div>
 </div>
+
+
+---
+layout: default
+---
+
+# From Brainstorm to Spec: Making It Real
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-base font-bold text-accent-blue mb-3">The Spec Questions</h3>
+    <ul class="text-sm space-y-2">
+      <li><strong>Job:</strong> What specific task are we solving?</li>
+      <li><strong>User:</strong> Who has this problem most acutely?</li>
+      <li><strong>Success:</strong> How do we know it's working?</li>
+      <li><strong>Constraints:</strong> What are the non-negotiables?</li>
+    </ul>
+  </div>
+  
+  <div v-click class="bg-code-background p-4 rounded-lg border border-code-border">
+    <h3 class="text-base font-bold text-accent-teal mb-3">Bulletizer Spec Example</h3>
+    <ul class="text-sm space-y-2">
+      <li><strong>Job:</strong> Extract 3-5 key points from any content</li>
+      <li><strong>User:</strong> Researchers, students, note-takers</li>
+      <li><strong>Success:</strong> < 2 seconds, accurate summaries</li>
+      <li><strong>Constraints:</strong> Works offline, preserves meaning</li>
+    </ul>
+  </div>
+</div>
+
+<div v-click class="mt-6 text-center">
+  <div class="bg-code-background p-4 rounded-lg border-2 border-accent-yellow">
+    <p class="text-base font-bold">Good specs turn fuzzy ideas into buildable features</p>
+  </div>
+</div>
+
 
 ---
 layout: default
