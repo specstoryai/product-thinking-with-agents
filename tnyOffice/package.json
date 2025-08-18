@@ -1,0 +1,27 @@
+{
+  "name": "tnyoffice-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "lint:root": "eslint . --ext .ts,.tsx,.js,.jsx,.mjs --ignore-path .gitignore",
+    "typecheck": "turbo run typecheck",
+    "typecheck:root": "tsc --noEmit",
+    "check-all": "npm run lint && npm run typecheck",
+    "check-build": "npm run check-all && npm run build"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "turbo": "^2.5.5",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "npm@10.0.0"
+}

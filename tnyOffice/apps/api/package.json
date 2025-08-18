@@ -1,0 +1,44 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@automerge/automerge": "^3.0.0",
+    "@automerge/automerge-repo": "^2.1.0",
+    "@automerge/automerge-repo-network-websocket": "^2.1.0",
+    "@types/diff-match-patch": "^1.0.36",
+    "@types/ws": "^8.18.1",
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "diff-match-patch": "^1.0.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "simple-git": "^3.28.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.3",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "nodemon": "^3.1.9",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

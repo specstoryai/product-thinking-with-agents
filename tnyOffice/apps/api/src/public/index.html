@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TnyOffice API - Interactive Tester</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TnyOffice API Service</h1>
+            <p class="subtitle">A TypeScript Node.js API using Express and SQLite for file storage</p>
+        </header>
+
+        <main>
+            <!-- API Key Configuration -->
+            <section class="api-key-section">
+                <div class="api-key-card">
+                    <h3>API Authentication</h3>
+                    <div class="api-key-form">
+                        <label for="apiKey">API Key (optional)</label>
+                        <input type="text" id="apiKey" placeholder="Enter your API key for authenticated requests" />
+                        <button id="saveApiKey" class="btn btn-primary">Save</button>
+                        <button id="clearApiKey" class="btn btn-secondary">Clear</button>
+                    </div>
+                    <p class="api-key-status" id="apiKeyStatus">No API key set</p>
+                </div>
+            </section>
+            <section class="api-section">
+                <h2>Test the API</h2>
+                
+                <!-- Create File -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="path">/api/v1/files</span>
+                    </div>
+                    <div class="endpoint-body">
+                        <p>Create a new markdown file</p>
+                        <form id="createForm">
+                            <div class="form-group">
+                                <label for="filename">Filename</label>
+                                <input type="text" id="filename" name="filename" placeholder="example.md" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="content">Content</label>
+                                <textarea id="content" name="content" rows="6" placeholder="# Hello World&#10;&#10;This is my markdown content..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Create File</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- List Files -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="path">/api/v1/files</span>
+                    </div>
+                    <div class="endpoint-body">
+                        <p>List all files with pagination</p>
+                        <form id="listForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="limit">Limit</label>
+                                    <input type="number" id="limit" name="limit" value="20" min="1" max="100">
+                                </div>
+                                <div class="form-group">
+                                    <label for="offset">Offset</label>
+                                    <input type="number" id="offset" name="offset" value="0" min="0">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">List Files</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Get File by ID -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="path">/api/v1/files/:id</span>
+                    </div>
+                    <div class="endpoint-body">
+                        <p>Get a specific file by ID</p>
+                        <form id="getForm">
+                            <div class="form-group">
+                                <label for="fileId">File ID</label>
+                                <input type="text" id="fileId" name="fileId" placeholder="UUID" required>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Get File</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Update File -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method put">PUT</span>
+                        <span class="path">/api/v1/files/:id</span>
+                    </div>
+                    <div class="endpoint-body">
+                        <p>Update a file's filename and/or content</p>
+                        <form id="updateForm">
+                            <div class="form-group">
+                                <label for="updateFileId">File ID</label>
+                                <input type="text" id="updateFileId" name="updateFileId" placeholder="UUID" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="updateFilename">Filename (optional)</label>
+                                <input type="text" id="updateFilename" name="updateFilename" placeholder="updated.md">
+                            </div>
+                            <div class="form-group">
+                                <label for="updateContent">Content (optional)</label>
+                                <textarea id="updateContent" name="updateContent" rows="6" placeholder="# Updated Document&#10;&#10;Leave empty to keep existing content..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Update File</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Delete File -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="path">/api/v1/files/:id</span>
+                    </div>
+                    <div class="endpoint-body">
+                        <p>Delete a file by ID</p>
+                        <form id="deleteForm">
+                            <div class="form-group">
+                                <label for="deleteFileId">File ID</label>
+                                <input type="text" id="deleteFileId" name="deleteFileId" placeholder="UUID" required>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Delete File</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Response Section -->
+            <section class="response-section" id="responseSection" style="display: none;">
+                <h2>Response</h2>
+                <div class="response-header">
+                    <span class="status-code" id="statusCode"></span>
+                    <span class="response-time" id="responseTime"></span>
+                </div>
+                <pre class="response-body" id="responseBody"></pre>
+            </section>
+
+            <!-- File List -->
+            <section class="files-section" id="filesSection" style="display: none;">
+                <h2>Files</h2>
+                <div id="filesList" class="files-list"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Ready for deployment on <a href="https://fly.io" target="_blank">Fly.io</a></p>
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+.env
+.env.local
+database.db
+*.log
+dist
+*.tsbuildinfo
+.git
+.gitignore
+README.md
+.eslintrc*
+.prettierrc*
+.vscode
+.idea
+.DS_Store
+fly.toml

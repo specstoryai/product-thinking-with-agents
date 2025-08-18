@@ -1,0 +1,11 @@
+node_modules
+.env
+.env.local
+database.db
+database.db-shm
+database.db-wal
+*.log
+dist
+*.tsbuildinfo
+git-repo/
+test-git-pull-curl.sh
