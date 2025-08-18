@@ -1,6 +1,8 @@
-# SpecStory's Top 25 Lessons Learned
+# SpecStory's Top 25 Lessons Learned: Agentic Development
 
-*A comprehensive guide to building software with AI agents based on real-world experience*
+> **What This Is**: Hard-won lessons from building multiple production micro-SaaS products using AI agents. These insights cover the entire journey from ideation to deployment, focusing on what actually works in practice.
+
+> **Who This Is For**: Those using AI coding assistants (Cursor, Claude Code, Copilot) to ship real products. Whether you're building your first AI-assisted project or optimizing your workflow, learning from these lessons will accelerate your success.
 
 ---
 
@@ -15,9 +17,9 @@ When starting, don't try to write a perfect spec. Instead:
 - Let ideas flow naturally and connect them later
 
 #### 2. **Voice is Your Superpower**
-- **Talk it out**: Speak for 5-10 minutes about your idea
+- **Talk it out**: Speak for 5-10 minutes about your idea. Use a product like SuperWhisper or Wispr Flow
 - **Don't stop**: Keep talking even when you think you're done
-- **Convert later**: This audio becomes valuable text input for agents
+- **Convert**: This audio becomes valuable text input for agents
 
 #### 3. **Leverage Existing Content**
 - **Team recordings**: Use interview transcripts and meeting recordings (with light editing)
@@ -252,5 +254,9 @@ Periodically review and remove unnecessary features:
 7. **Simplification** is a powerful debugging strategy
 
 ---
+
+**Questions about these lessons?** Let us know!
+- greg@specstory.com
+- jake@specstory.com
 
 *Remember: These lessons come from real-world experience building micro-SaaS products with AI agents. Adapt them to your context and continue learning from your own experiments.*
