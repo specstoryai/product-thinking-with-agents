@@ -1,4 +1,6 @@
-# SpecStory's Top 25 Lessons Learned: Agentic Development
+<img src="specstorylogo.svg" width="360" alt="SpecStory" />
+
+# Top 25 Lessons Learned: Agentic Development
 
 > **What This Is**: Hard-won lessons from building multiple production micro-SaaS products using AI agents. These insights cover the entire journey from ideation to deployment, focusing on what actually works in practice.
 
@@ -12,6 +14,7 @@
 
 #### 1. **Freeform Brainstorming Works**
 When starting, don't try to write a perfect spec. Instead:
+
 - Get all related ideas down in one place
 - Don't worry about structure initially
 - Let ideas flow naturally and connect them later
@@ -41,6 +44,7 @@ When starting, don't try to write a perfect spec. Instead:
 
 #### 5. **Package Selection Requires Human Review**
 Before accepting AI package suggestions:
+
 - **Check health signals**:
   - Recency of commits
   - Download numbers
@@ -51,6 +55,7 @@ Before accepting AI package suggestions:
 - **Save good documentation URLs** for agent context
 
 #### 6. **Version Control for Packages is Critical**
+
 - AI often suggests outdated package versions
 - Always verify latest stable versions
 - Check compatibility between packages
@@ -67,11 +72,13 @@ Consider these factors when choosing services:
 
 #### 8. **Form Factor First**
 **Choose early**: Web, mobile, desktop, or watch app
+
 - Without a choice, AI will wander or decide for you
 - You can change later, but starting focused saves time
 
 #### 9. **Language & Framework Selection**
 Less important than you think, except for:
+
 - **AI capability**: Avoid obscure languages with poor AI support
 - **Package ecosystem**: Rich ecosystems = faster development
 - **Your familiarity**: Know enough to spot obvious errors
@@ -83,6 +90,7 @@ Less important than you think, except for:
 ### **Know Your Building Blocks**
 
 #### 10. **Web Architecture Essentials**
+
 - Client (Browser)
 - Backend Server  
 - REST APIs
@@ -92,6 +100,7 @@ Less important than you think, except for:
 - Build/Deployment & Hosting
 
 #### 11. **Mobile Architecture Components**
+
 - Client (Mobile App)
 - Backend Server & APIs
 - Local Storage
@@ -102,6 +111,7 @@ Less important than you think, except for:
 - App Distribution
 
 #### 12. **Desktop Architecture Elements**
+
 - Client (Desktop App)
 - Native vs. Multi-platform decisions
 - Local "Backend" considerations
@@ -118,17 +128,20 @@ Less important than you think, except for:
 ### **Context is King**
 
 #### 13. **Context Priming Strategy**
+
 - Ask questions about the relevant area before writing specs
 - Load agent memory with domain knowledge
 - Provide examples of what you want
 
 #### 14. **Strategic Ambiguity**
 Sometimes leaving things unclear is useful:
+
 - Let AI help think through choices
 - See what it comes up with during implementation
 - Roll back if you don't like it, roll forward if promising
 
 #### 15. **Multi-Modal is Powerful**
+
 - **Screenshots are your friend**
 - Visual examples often communicate better than text
 - Use diagrams for architecture decisions
@@ -137,12 +150,14 @@ Sometimes leaving things unclear is useful:
 
 #### 16. **Know When to Reset**
 Ask the agent to step back and rethink when:
+
 - **Dead loops**: Same error 2-3 times
 - **Wrong structure**: Files/directories look off
 - **Confusion signs**: Agent's summary doesn't make sense
 
 #### 17. **Development Environment Awareness**
 Understand your tools:
+
 - When do changes need a server restart?
 - When does hot-reloading work?
 - When to do a clean rebuild?
@@ -164,6 +179,7 @@ Understand your tools:
 
 #### 19. **Database Schema Management**
 For migrations and schema changes:
+
 1. Dump entire schema from your database
 2. Feed as context to agent
 3. Generate accurate migrations
@@ -173,12 +189,14 @@ For migrations and schema changes:
 
 #### 20. **Common Error Patterns**
 Watch for:
+
 - Off-by-one errors
 - Incorrect assumptions about state
 - Package version mismatches
 - Missing error handling
 
 #### 21. **Documentation Strategies**
+
 - Use `CLAUDE.md` or similar for project-specific instructions
 - Document gotchas and patterns
 - Include adversarial review notes in slash commands
@@ -191,12 +209,14 @@ Watch for:
 
 #### 22. **The Simplification Strategy**
 When debugging complex issues:
+
 1. Have AI write a simplified version of the feature
 2. Load context with the "clean" approach
 3. Apply learnings to fix the complex version
 
 #### 23. **Feature Reduction Exercise**
 Periodically review and remove unnecessary features:
+
 - Improves performance
 - Reduces complexity
 - Makes maintenance easier
@@ -204,11 +224,13 @@ Periodically review and remove unnecessary features:
 ### **Production Readiness**
 
 #### 24. **Performance Optimization**
+
 - Use tools like PageSpeed Insights
 - Focus on Core Web Vitals
 - Implement SEO best practices
 
 #### 25. **Product Polish**
+
 - Convert apps to product videos using tools like Remotion
 - Create compelling demos
 - Polish user experience details
@@ -218,11 +240,13 @@ Periodically review and remove unnecessary features:
 ## 📋 Quick Reference Checklist
 
 ### Before Starting
+
 - [ ] Define form factor (web/mobile/desktop)
 - [ ] Choose language/framework based on AI support
 - [ ] Set up voice capture for brainstorming
 
 ### During Development
+
 - [ ] Review all package suggestions
 - [ ] Verify package versions
 - [ ] Check API documentation quality
@@ -230,12 +254,14 @@ Periodically review and remove unnecessary features:
 - [ ] Work on parallel tasks
 
 ### When Stuck
+
 - [ ] Ask agent to step back and rethink
 - [ ] Try the simplification strategy
 - [ ] Check if server restart needed
 - [ ] Review file/folder structure
 
 ### Before Shipping
+
 - [ ] Run performance analysis
 - [ ] Remove unnecessary features
 - [ ] Create product demo
@@ -256,6 +282,7 @@ Periodically review and remove unnecessary features:
 ---
 
 **Questions about these lessons?** Let us know!
+
 - greg@specstory.com
 - jake@specstory.com
 

@@ -219,38 +219,8 @@ layout: default
   </div>
 </div>
 
-<div v-click class="mt-4">
-  <h3 class="text-center text-lg font-bold text-accent-yellow mb-3">The SPECIFY Framework</h3>
-  <div class="flex justify-between gap-2">
-    <div class="flex-1 text-center">
-      <div><span class="text-accent-blue font-bold">S</span>cope</div>
-      <div class="text-xs text-gray-400">the problem</div>
-    </div>
-    <div class="flex-1 text-center">
-      <div><span class="text-accent-teal font-bold">P</span>rototype</div>
-      <div class="text-xs text-gray-400">rapidly</div>
-    </div>
-    <div class="flex-1 text-center">
-      <div><span class="text-accent-yellow font-bold">E</span>valuate</div>
-      <div class="text-xs text-gray-400">systematically</div>
-    </div>
-    <div class="flex-1 text-center">
-      <div><span class="text-accent-red font-bold">C</span>ompose</div>
-      <div class="text-xs text-gray-400">workflows</div>
-    </div>
-    <div class="flex-1 text-center">
-      <div><span class="text-accent-blue font-bold">I</span>terate</div>
-      <div class="text-xs text-gray-400">on usage</div>
-    </div>
-    <div class="flex-1 text-center">
-      <div><span class="text-accent-teal font-bold">F</span>ortify</div>
-      <div class="text-xs text-gray-400">guardrails</div>
-    </div>
-    <div class="flex-1 text-center">
-      <div><span class="text-accent-yellow font-bold">Y</span>ield</div>
-      <div class="text-xs text-gray-400">control</div>
-    </div>
-  </div>
+<div v-click class="mt-6 text-center">
+  <img src="/specflow_image.png" class="max-h-[150px] mx-auto rounded-lg border border-code-border" />
 </div>
 
 ---

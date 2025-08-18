@@ -1,4 +1,7 @@
-# SpecStory's Patterns of Prompting: From Real-World Practice
+<img src="specstorylogo.svg" width="360" alt="SpecStory" />
+
+
+# Patterns of Prompting: From Real-World Practice
 
 *Distilled from 200+ conversations building production micro-SaaS with AI agents*
 

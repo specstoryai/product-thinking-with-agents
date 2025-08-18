@@ -12,6 +12,8 @@ dist-ssr/
 # Slidev specific
 .slidev/
 *.pdf
+# But keep handout PDFs
+!handouts/pdfs/*.pdf
 
 # Screenshots and test files
 slide-*.png
