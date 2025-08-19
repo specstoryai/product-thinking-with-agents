@@ -377,7 +377,7 @@ What followed was a transformation of the DocumentViewer component. The read-onl
 - Save to persist them using the new PUT endpoint
 - Proper state management for `isEditing`, `editedContent`, and `isSaving`
 
-![Editor](./images/multi-author.png)
+![Editor](./images/edit-doc.png)
 
 ```typescript
 const handleSave = async () => {
