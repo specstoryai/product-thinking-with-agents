@@ -377,8 +377,6 @@ What followed was a transformation of the DocumentViewer component. The read-onl
 - Save to persist them using the new PUT endpoint
 - Proper state management for `isEditing`, `editedContent`, and `isSaving`
 
-![Editor](./images/edit-doc.png)
-
 ```typescript
 const handleSave = async () => {
   const response = await fetch(`${API_BASE}/api/v1/files/${documentId}`, {
@@ -394,6 +392,8 @@ const handleSave = async () => {
 ```
 
 The docs app now had full CRUD capabilities. Users could create, read, update, and list documents. The foundation was complete.
+
+![Editor](./images/edit-doc.png)
 
 ### The cr-sqlite Pivot
 
