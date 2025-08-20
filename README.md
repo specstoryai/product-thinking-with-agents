@@ -47,7 +47,7 @@ A collaborative markdown editor that demonstrates agentic development:
    - Progressive Disclosure techniques
    - 8 core patterns with practice scenarios
 
-- **[25 Lessons Learned Handout](./handouts/pdfs/specstory-25-lessons-handout.pdf)** - Hard-won insights from building production micro-SaaS agentically
+- **[25 Lessons Learned Handout](./handouts/pdfs/specstory-25-lessons-learned-handout.pdf)** - Hard-won insights from building production micro-SaaS agentically
    - Ideation & requirements gathering
    - Technology stack decisions
    - Architecture fundamentals
