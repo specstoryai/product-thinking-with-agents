@@ -13,7 +13,7 @@ The fundamental shift is here: **"We can build anything - but should we?"** Lear
 
 ### Lesson Details
 - **📊 [View the Lightning Lesson Slides](https://specstoryai.github.io/product-thinking-with-agents/)** - Interactive Slidev presentation
-- **🎥 Lightning Lesson Recording** - *August 19, 2025 at 2 PM EDT*
+- **🎥 Lightning Lesson Recording** - View on [YoutTube here](https://www.youtube.com/watch?v=A1zN6XhiWVo). Recorded *August 19, 2025 at 2 PM EDT*
 - **👥 Instructors**: [Greg Ceccarelli](https://www.linkedin.com/in/gregceccarelli/) & [Jake Levirne](https://www.linkedin.com/in/jakelevirne/)
 
 ## 🚀 Live Demo: The Bulletizer for tnyOffice
